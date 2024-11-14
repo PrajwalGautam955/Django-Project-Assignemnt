@@ -1,0 +1,8 @@
+<h1 style="text-align: center;">Upload an Excel File</h1>
+<form action="" method="post" enctype="multipart/form-data" style="text-align: center;">
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="file" required>
+        <button type="submit">Upload</button>
+    </form>
+    
