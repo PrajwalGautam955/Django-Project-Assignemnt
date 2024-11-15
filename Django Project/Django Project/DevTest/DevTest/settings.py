@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-s)t_-oj%9&e4+jn#h7!l9$-@ngcjf9bz(5)&0w5t)urin&^a8s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['13.48.42.52', 'api.ipify.org']
 
 
 # Application definition
@@ -118,7 +119,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-ALLOWED_HOSTS = ['13.48.42.52', 'api.ipify.org']
+
 
 
 # Default primary key field type
